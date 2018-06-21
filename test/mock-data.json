@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "name": "PlayerOne",
+    "rating": 200,
+    "intervals": 0
+}, {
+    "id": 2,
+    "name": "PlayerTwo",
+    "rating": 800,
+    "intervals": 0
+}, {
+    "id": 3,
+    "name": "PlayerThree",
+    "rating": 2000,
+    "intervals": 0
+}, {
+    "id": 4,
+    "name": "PlayerFour",
+    "rating": 3000,
+    "intervals": 0
+}, {
+    "id": 5,
+    "name": "PlayerFive",
+    "rating": 4000,
+    "intervals": 0
+}]

@@ -1,6 +1,6 @@
 module.exports = class MatchService {
-    constructor() {
-        this.matches = []
+    constructor({ matches = [] }) {
+        this.matches = matches
     }
 
     addMatch(players) {

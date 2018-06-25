@@ -1,6 +1,6 @@
-module.exports = class PlayerQueue {
-    constructor({ pool }) {
-        this.pool = pool || []
+module.exports = class QueueService {
+    constructor({ pool = [] }) {
+        this.pool = pool
     }
 
     addPlayer(player) {

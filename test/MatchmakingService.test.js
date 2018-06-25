@@ -17,11 +17,10 @@ describe('MatchmakingService', function() {
 
     before(function() {
         queueService = new QueueService({ pool: mockData })
-        matchService = new MatchService()
+        matchService = new MatchService({})
         matchmakingService = new MatchmakingService({
             queueService,
-            matchService,
-            tickRate: 0.01 // Tickrate of 10ms (1000 * 0.01)
+            matchService
         })
     })
 
@@ -61,7 +60,6 @@ describe('MatchmakingService', function() {
                 match.players[0].should.exist
                 match.players[1].should.exist
             })
-            matchmakingService.stop()
         })
     })
 })
